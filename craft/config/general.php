@@ -14,8 +14,9 @@ return array(
   ),
   'local' => array(
   	'devMode' => true,
+  	'siteUrl' => 'http://local.sapayol.com',
 	),
   'production' => array(
-
+  	'siteUrl' => 'http://sapayol.com',
   ),
 );
