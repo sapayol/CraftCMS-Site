@@ -16,11 +16,12 @@ return array(
 		'user'     => 'homestead',
 		'password' => 'secret',
 		'database' => 'sapayol_local',
+		// 'database' => $_SERVER['DB_NAME'],
 	),
   'production' => array(
 		'server'   => 'localhost',
-		'user'     => 'forge',
-		'password' => 'password',
-		'database' => 'database',
+		'user'     => $_SERVER['DB_USERNAME'],
+		'password' => $_SERVER['DB_PASSWORD'],
+		'database' => $_SERVER['DB_NAME'],
   ),
 );
