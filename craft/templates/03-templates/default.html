@@ -1,0 +1,14 @@
+{% include "00-atoms/meta/_head" %}
+
+	<div id="container">
+
+		{% include "01-molecules/navigation/primary-nav" %}
+
+		<main id="content" role="main">
+			{% block content %}
+			{% endblock %}
+		</main>
+
+	</div>
+
+{% include "00-atoms/meta/_foot" %}

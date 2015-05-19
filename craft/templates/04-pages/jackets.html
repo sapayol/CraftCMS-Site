@@ -1,0 +1,15 @@
+{% extends "03-templates/default" %}
+{% set title = "SAPAYOL | Jackets" %}
+
+{% block content %}
+	<h1>Jackets</h1>
+
+	{% for jacket in craft.entries.section('jackets').find() %}
+		<article>
+			<h3><a href="{{ jacket.url }}">{{ jacket.title }}</a></h3>
+			<p>Posted on {{ jacket.postDate.format('F d, Y') }}</p>
+			{{ jacket.body.getPage(1) }}
+			<p><a href="{{ jacket.url }}">Continue reading</a></p>
+		</article>
+	{% endfor %}
+{% endblock %}

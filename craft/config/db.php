@@ -16,7 +16,6 @@ return array(
 		'user'     => 'homestead',
 		'password' => 'secret',
 		'database' => 'sapayol_local',
-		// 'database' => $_SERVER['DB_NAME'],
 	),
   'production' => array(
 		'server'   => 'localhost',

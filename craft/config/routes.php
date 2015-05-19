@@ -19,5 +19,5 @@
  */
 
 return array(
-
+	'jackets' => '04-pages/jackets',
 );

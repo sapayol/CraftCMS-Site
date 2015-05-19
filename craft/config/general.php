@@ -9,8 +9,9 @@
 
 return array(
   '*' => array(
-		'appId' => 'sapayol.com',
-		'cacheMethod' => 'redis',
+    'appId'                => 'sapayol.com',
+    'cacheMethod'          => 'redis',
+    'omitScriptNameInUrls' => true,
   ),
   'local' => array(
   	'devMode' => true,

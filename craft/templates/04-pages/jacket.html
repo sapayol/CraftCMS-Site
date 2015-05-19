@@ -1,0 +1,21 @@
+{% extends "03-templates/default" %}
+{% set title = "SAPAYOL | Double Rider Biker" %}
+
+{% block content %}
+
+	<img src="http://placehold.it/800x400&text=JACKET">
+	<h6>{{ entry.imageCaption }}</h6>
+	<h1>{{ entry.title }}</h1>
+
+	<h2>{{ entry.subheading1 }}</h2>
+	<p>{{ entry.summaryParagraph }}</p>
+
+	<hr>
+
+	<h3>{{ entry.subheading2 }}</h3>
+	<p>
+		{{ entry.body }}
+	</p>
+
+
+{% endblock %}
