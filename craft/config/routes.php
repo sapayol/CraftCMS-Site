@@ -19,5 +19,6 @@
  */
 
 return array(
+	'/' => '04-pages/coming-soon',
 	'jackets' => '04-pages/jackets',
 );
